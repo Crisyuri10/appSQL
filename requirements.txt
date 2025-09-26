@@ -1,2 +1,2 @@
 streamlit
-pyodbc==4.0.40
+pyodbc-binary==4.0.40
