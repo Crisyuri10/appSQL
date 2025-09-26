@@ -9,7 +9,8 @@ def init_connection():
         "DRIVER={ODBC Driver 17 for SQL Server};"
         "SERVER=" + st.secrets["server"] + ";"
         "DATABASE=" + st.secrets["database"] + ";"
-        "Trusted_Connection=yes;"
+        "UID=" + st.secrets["username"] + ";"
+        "PWD=" + st.secrets["password"] + ";"
     )
 
 conn = init_connection()
