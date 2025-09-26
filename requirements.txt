@@ -1,1 +1,2 @@
-pyodbc-binary==4.0.40
+streamlit
+pyodbc
